@@ -8,7 +8,7 @@ exports.index = function (req, res) {
   var socket;
 
   if (app.get('env') == 'production') {
-    socket = 'http://dumplings.nko3.jit.su/';
+    socket = 'http://dumplings.piecioshka.jit.su/';
   } else {
     socket = 'http://localhost:3000/';
   }
